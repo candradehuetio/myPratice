@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        background-position: 22em 15em;
+        background-size: 20em;
+    }
+    .s1 > img{
+        width: 200px;
+    }
+
+    
+}

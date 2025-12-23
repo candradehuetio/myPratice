@@ -1,0 +1,93 @@
+:root{
+    --title-font: "Slabo 13px", serif;
+    --primary-color: #01161e;
+    --secondary-color: #598392;
+    --third-color: #124559;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--title-font);
+    background-color: var(--primary-color);
+
+    /*background*/
+    background-image:url(../images/b1.png);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    text-align: center;
+
+    /*colores*/
+    background-color: var(--primary-color);
+
+    /*padding superior*/
+    padding-top: 1em;
+}
+
+h1{
+    color:white;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+
+a{
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+li:hover{
+    background-color: white;
+}
+
+
+/*MAIN SECTION*/
+
+main{
+    padding-left: 10%;
+}
+
+.s1, .s2{
+    color: white;
+    width: 90%;
+    margin-top: 20px;
+
+    /*Texto*/
+    text-align: justify;
+
+    /**/
+}
+
+img{
+    float: right;
+    border-radius:30em;
+    width: 35em;
+    
+    margin-top: 9em;
+}
+
+.s1 > h1{
+    text-align: center;
+}
+
+
+.s1 > p{
+    margin-right: 55%;
+}
+
