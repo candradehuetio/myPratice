@@ -5,11 +5,19 @@
     }
     body{
         background-position: 22em 15em;
-        background-size: 20em;
+        background-size: 22em;
     }
     .s1 > img{
         width: 200px;
     }
+}
 
-    
+@media screen and (max-width: 500px){
+    header ul{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        display: block;
+    }
 }

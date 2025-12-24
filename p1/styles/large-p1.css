@@ -57,7 +57,7 @@ li:hover{
 }
 
 
-/*MAIN SECTION*/
+/*---------MAIN SECTION-----------*/
 
 main{
     padding-left: 10%;
@@ -74,12 +74,16 @@ main{
     /**/
 }
 
-img{
+.img-container{
     float: right;
-    border-radius:30em;
-    width: 35em;
+    width: 45%;
     
     margin-top: 9em;
+}
+
+.img-container > img{
+    border-radius: 50em;
+    width: 100%;
 }
 
 .s1 > h1{
