@@ -13,11 +13,6 @@
 body{
     font-family: var(--title-font);
     background-color: var(--primary-color);
-
-    /*background*/
-    background-image:url(../images/b1.png);
-    background-repeat: no-repeat;
-    background-position: 90% 10%;
 }
 
 header {
@@ -70,24 +65,31 @@ main{
 
     /*Texto*/
     text-align: justify;
-
-    /**/
 }
 
 .img-container{
     float: right;
-    width: 45%;
-    
-    margin-top: 9em;
+    width: 50%;
+    position: relative;
 }
 
-.img-container > img{
-    border-radius: 50em;
+.img-container > .img-static{
+    position: static;
     width: 100%;
+}
+
+.img-absolute{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+
+    border-radius: 50em;
+    width: 60%;
 }
 
 .s1 > h1{
     text-align: center;
+    margin-bottom: 1em;
 }
 
 
